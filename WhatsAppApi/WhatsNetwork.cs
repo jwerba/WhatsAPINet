@@ -20,7 +20,7 @@ namespace WhatsAppApi
         /// <summary>
         /// The hostname of the whatsapp server
         /// </summary>
-        private readonly string whatsHost;
+        //private readonly string whatsHost;
 
         /// <summary>
         /// The port of the whatsapp server
