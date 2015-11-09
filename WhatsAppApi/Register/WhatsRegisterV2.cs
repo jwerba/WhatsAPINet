@@ -13,6 +13,11 @@ namespace WhatsAppApi.Register
 {
     public static class WhatsRegisterV2
     {
+        static WhatsRegisterV2()
+        {
+            System.Net.WebRequest.DefaultWebProxy.Credentials = System.Net.CredentialCache.DefaultNetworkCredentials;
+        }
+
         public static string GenerateIdentity(string phoneNumber, string salt = "")
         {
             return (phoneNumber + salt).Reverse().ToSHAString();
