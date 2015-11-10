@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppApi", "WhatsAppApi\WhatsAppApi.csproj", "{3FC9096A-C4D2-40C7-BE7B-D98ACAB3BD2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppPort", "WhatsAppPort\WhatsAppPort.csproj", "{91D9D263-BFB7-4C31-890F-4A42F734670E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsTest", "WhatsTest\WhatsTest.csproj", "{E003A3A5-4ECF-475A-8926-154EF85CF4B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppConnector", "WhatsAppConnector\WhatsAppConnector.csproj", "{F1549530-761A-4135-A559-82BDA8530032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj", "{C8DA145B-D06A-4B93-83A9-8B50DA614440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,30 @@ Global
 		{E003A3A5-4ECF-475A-8926-154EF85CF4B7}.Release|Mixed Platforms.Build.0 = Release|x86
 		{E003A3A5-4ECF-475A-8926-154EF85CF4B7}.Release|x86.ActiveCfg = Release|x86
 		{E003A3A5-4ECF-475A-8926-154EF85CF4B7}.Release|x86.Build.0 = Release|x86
+		{F1549530-761A-4135-A559-82BDA8530032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Debug|x86.Build.0 = Debug|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1549530-761A-4135-A559-82BDA8530032}.Release|x86.Build.0 = Release|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8DA145B-D06A-4B93-83A9-8B50DA614440}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
