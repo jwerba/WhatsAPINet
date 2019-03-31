@@ -14,12 +14,12 @@ namespace WhatsAppApi.Settings
         #region ServerConstants
 
         /// <summary>
-        /// The whatsapp host
+        /// The whatsapp host to connect to
         /// </summary>
         public const string WhatsAppHost = "c3.whatsapp.net";
 
         /// <summary>
-        /// The whatsapp XMPP realm
+        /// The whatsapp XMPP realm (the part on the right after the @)
         /// </summary>
         public const string WhatsAppRealm = "s.whatsapp.net";
 
@@ -45,7 +45,7 @@ namespace WhatsAppApi.Settings
         public const int WhatsPort = 443;
 
         /// <summary>
-        /// iPhone device
+        /// The device we are simulating to be
         /// </summary>
         public const string Device = "S40";
 
